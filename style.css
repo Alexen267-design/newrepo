@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body#page {
+  background: hsl(235, 18%, 26%);
+  font-family: 'Roboto';
+  font-size: 16px;
+  height: 100%;
+}
+
+.form {
+  margin: 50vh auto;
+  background: hsl(0, 0%, 100%);
+  border-radius: 30px;
+  width: 940px;
+}
+
+@media (max-width: 576px) {
+  body#page {
+    background: hsl(0, 0%, 100%);
+  }
+}
+
+.mob-img {
+  width: 100%;
+}
+
+.mob-li li {
+  width: 88%;
+}
+
+div.col-sm-6#mob {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.title {
+  font-size: 3.5em;
+  font-weight: bolder;
+  color: hsl(235, 18%, 26%);
+}
+
+.mob-title {
+  font-size: 2.6em;
+  font-weight: bolder;
+  color: hsl(235, 18%, 26%);
+}
+
+ul {
+  list-style: none;
+}
+li {
+  margin: 15px 0;
+  background: url(./assets/images/icon-list.svg) no-repeat left;
+  list-style: none;
+  padding-left: 36px;
+}
+
+div.col-sm-6 {
+  padding-left: 40px;
+}
+
+button.btn-subs {
+  background: hsl(234, 29%, 20%);
+  width: 100%;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  padding: 16px;
+  transition: background 0.3s;
+}
+
+.email {
+  width: 100%;
+  padding: 16px;
+  color: #000;
+  border-radius: 6px;
+  border: 1px solid #d3d3d3;
+  transition: 0.4s;
+}
+
+.email:focus {
+  outline: 3px solid lightblue;
+}
+button.btn-subs:hover {
+  background: hsl(235, 18%, 26%);
+}
+
+button.btn-subs:active {
+  background: linear-gradient(to right, hsl(4, 100%, 67%), hsl(21, 96%, 63%));
+}
+
+input.form-control {
+  height: 47px;
+}
+
+label.form-label {
+  font-size: 0.8em;
+  color: hsl(235, 18%, 26%);
+  font-weight: 700;
+}
+
+input.form-control {
+  padding-left: 20px;
+}
+
+label.validation {
+  float: right;
+  color: rgb(254, 88, 88);
+}
+
+.hide {
+  display: none;
+}
+
+.modalWindow.desktop {
+  margin: 50vh auto;
+  background: hsl(0, 0%, 100%);
+  border-radius: 30px;
+  padding: 50px;
+  width: 470px;
+}
+
+.modalWindow.mobile {
+  padding: 20px;
+  margin-top: 70px;
+}
+
+.mobile .btn-subs {
+  margin-top: 47vh;
+}
+
+span.email-txt {
+  color: hsl(235, 18%, 26%);
+  font-weight: bold;
+}
+
+.invalid {
+  background: rgb(253, 215, 215);
+  border: 1px solid rgb(253, 104, 104);
+  color: #000;
+}
+.invalid:focus {
+  outline: 3px solid rgb(253, 104, 104);
+}
+
+.invalid::placeholder {
+  color: rgb(253, 104, 104);
+}
+
+.mobile-form {
+  min-width: 325px;
+}
